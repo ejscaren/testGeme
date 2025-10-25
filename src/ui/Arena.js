@@ -101,7 +101,7 @@ import { Heart } from "../sprites/Heart.js";
         this.temp = this.enemies[i];
         this.enemies.splice(i, 1);
         this.temp.destroy();
-    
+        thing.score++;
    
    }
    bomb.destroy();
